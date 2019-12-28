@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5940835-8c9e-4c74-82ff-051b9063438c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/Tile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <marker date="1577561158348" expanded="true" signature="7:33" ph="..." />
+                <marker date="1577561158348" expanded="true" signature="68:4020" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="99:166" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="198:305" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="471:743" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="515:738" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1021:1135" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1161:2219" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1213:1246" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1259:2213" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1322:1522" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1420:1508" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1539:1850" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1606:1836" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1717:1818" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1886:2200" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="1957:2042" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2063:2116" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2250:2604" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2302:2515" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2347:2431" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2448:2505" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2528:2561" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2627:2831" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="2888:3159" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="3190:3509" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="3538:3799" ph="{...}" />
+                <marker date="1577561158348" expanded="true" signature="3828:4008" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/InteractiveObject.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="209" selection-start-line="209" selection-end-line="209" />
+              <folding>
+                <marker date="1577307020338" expanded="false" signature="6:69" ph="..." />
+                <marker date="1577307020338" expanded="true" signature="117:10133" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="124:875" ph="Properties" />
+                <marker date="1577307020338" expanded="true" signature="909:1180" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1207:1417" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1451:1818" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1474:1782" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1579:1730" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1621:1716" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1868:2144" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="1892:1980" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2053:2138" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2380:3711" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2711:3501" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2760:3491" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2854:3210" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="2930:3192" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3072:3170" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3307:3477" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3373:3459" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3717:5789" ph="Actions" />
+                <marker date="1577307020338" expanded="true" signature="3775:3958" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3893:3952" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="3994:4146" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4051:4100" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4198:4318" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4249:4312" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4349:4501" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4404:4462" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4531:4680" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4617:4674" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4738:4865" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4791:4859" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4911:5769" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="4917:4975" ph="/* event triggers ... */" />
+                <marker date="1577307020338" expanded="true" signature="5027:5763" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="5112:5575" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="5140:5561" ph="/* if (lastFocused.Contains(this)) ... */" />
+                <marker date="1577307020338" expanded="true" signature="5671:5753" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="5795:8551" ph="States" />
+                <marker date="1577307020338" expanded="true" signature="5928:8480" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6044:6326" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6126:6298" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6357:6641" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6438:6613" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6713:8390" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6783:7550" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="6882:7025" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="7130:7276" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="7378:7518" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="7585:8362" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="7684:7828" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="7933:8081" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="8183:8330" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="8579:10131" ph="Focus" />
+                <marker date="1577307020338" expanded="true" signature="8657:8977" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="8781:8971" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9010:9101" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9131:9349" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9187:9277" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9290:9343" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9380:9601" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9437:9494" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9507:9595" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9648:9896" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9701:9890" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9821:9880" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="9945:10116" ph="{...}" />
+                <marker date="1577307020338" expanded="true" signature="10026:10110" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileMenu.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <folding>
+                <marker date="1577566810802" expanded="false" signature="7:55" ph="..." />
+                <marker date="1577566810802" expanded="true" signature="100:2863" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="473:543" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="570:677" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="718:1420" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="769:1414" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="1455:1582" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="1506:1576" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="1620:2352" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="1673:2346" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="2390:2667" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="2462:2661" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="2748:2785" ph="{...}" />
+                <marker date="1577566810802" expanded="true" signature="2824:2861" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <marker date="1577042067611" expanded="false" signature="7:55" ph="..." />
+                <marker date="1577042067611" expanded="true" signature="94:402" ph="{...}" />
+                <marker date="1577042067611" expanded="true" signature="192:245" ph="{...}" />
+                <marker date="1577042067611" expanded="true" signature="279:320" ph="{...}" />
+                <marker date="1577042067611" expanded="true" signature="348:400" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/RaycasterFocus.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2464">
+              <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+              <folding>
+                <marker date="1577560214500" expanded="false" signature="6:66" ph="..." />
+                <marker date="1577560214500" expanded="true" signature="104:6705" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="701:848" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="875:906" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="933:1800" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1066:1357" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1134:1319" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1370:1794" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1392:1431" ph="/* if (missed == false) ... */" />
+                <marker date="1577560214500" expanded="true" signature="1496:1728" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1817:4911" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1871:2999" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="1917:2438" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="2021:2214" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="2235:2424" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="2697:2823" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="2840:2989" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3012:4905" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3051:4895" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3105:4648" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3238:4365" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3285:3457" ph="/* if (io.activationTriggers.Has(ActivationTriggers.GazeTimer)) ... */" />
+                <marker date="1577560214500" expanded="true" signature="3523:3623" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="3859:4040" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4094:4214" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4390:4630" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4461:4569" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4669:4881" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4732:4828" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4934:5747" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="4973:5741" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="5141:5296" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="5313:5465" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="5534:5718" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="5589:5673" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="5805:6370" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="6024:6165" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="6290:6364" ph="/* ..SendTrigger(ActivationTriggers.GazeTimer); ... */" />
+                <marker date="1577560214500" expanded="true" signature="6477:6703" ph="{...}" />
+                <marker date="1577560214500" expanded="true" signature="6511:6637" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/SeedsSelectionMenu.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+              <folding>
+                <marker date="1577546329473" expanded="false" signature="7:89" ph="..." />
+                <marker date="1577546329473" expanded="true" signature="138:868" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="219:270" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="303:344" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="372:506" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="541:584" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="620:664" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="717:866" ph="{...}" />
+                <marker date="1577546329473" expanded="true" signature="798:860" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>circle</find>
+      <find>enum</find>
+      <find>head</find>
+      <find>avatarHead</find>
+      <find>_target</find>
+      <find>Serializable</find>
+      <find>GoDisable</find>
+      <find>target</find>
+      <find>_source</find>
+      <find>get</find>
+      <find>currentInfoTile</find>
+      <find>info</find>
+      <find>set</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/ChildCollider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/InteractiveObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/VegetableManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/e2/74974d80/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PlayFabEditorExtensions/Editor/Scripts/PlayFabEditorSDK/SimpleJson.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/XR/XRController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VRKeys/Scripts/Placement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EasyPlayFabIntegration/Scripts/EasyPlayFabIntegration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/SeedsSelectionMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/Focus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/actions/farmActions/MenuToggle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/helpers/SubClasses.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileActions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/Tile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/ActionsManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileActionsButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/RaycasterFocus.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/StartShow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/VRKeyOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/Action.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/VRKeyOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/VRKeyClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonClick.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Activate.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/HideInfoMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/SeedPlant.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/SeedsSelection.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/ShowActionsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/ShowInfoMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/TileWater.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/TileHarvest.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/TileDig.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/HideActionsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/farmActions/TileClear.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GoDisable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/EndShow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Enable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Disable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Deactivate.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/ClearAllActions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GrabMe.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Grow.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/LoadScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/OpenUi.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Reset.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Rotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Scale.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Shrink.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GoEnable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/helpers/SubClasses.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/Focus.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/ShowInfoMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/MenuToggle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/InteractiveObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/Reset.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/SeedsSelectionMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/ActionsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/TileAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/RaycasterFocus.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileMenu.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1543" />
+    <option name="y" value="88" />
+    <option name="width" value="1549" />
+    <option name="height" value="838" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1529" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.27412868" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013405" side_tool="true" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/EndShow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Enable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Disable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Deactivate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/InteractiveObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/ClearAllActions.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Activate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GoDisable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GrabMe.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Grow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/LoadScene.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Move.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/OpenUi.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Reset.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Rotate.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Scale.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/Shrink.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputOver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputOff.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonOver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIInputClick.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonOff.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/UIButtonClick.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/StartShow.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/Focus.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/TouchFocus.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/Marker.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticxRes/scripts/Interactive/actions/GoEnable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/HideActionsMenu1.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/XR/XRController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+          <folding>
+            <marker date="1573922444605" expanded="false" signature="6:40" ph="..." />
+            <marker date="1573922444605" expanded="true" signature="86:3110" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="664:1004" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="924:998" ph="/* OnTriggerPressed += Focus.TriggerLast(); ... */" />
+            <marker date="1573922444605" expanded="true" signature="1045:1146" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="1198:1828" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="1267:1329" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="1393:1750" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="1879:2156" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="1973:2056" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2069:2150" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2204:2387" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2433:2722" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2777:3002" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2824:2881" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="2919:2973" ph="{...}" />
+            <marker date="1573922444605" expanded="true" signature="3065:3108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/ChildCollider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <marker date="1570386356000" expanded="true" signature="63:648" ph="{...}" />
+            <marker date="1570386356000" expanded="true" signature="124:260" ph="{...}" />
+            <marker date="1570386356000" expanded="true" signature="312:452" ph="{...}" />
+            <marker date="1570386356000" expanded="true" signature="365:446" ph="{...}" />
+            <marker date="1570386356000" expanded="true" signature="503:646" ph="{...}" />
+            <marker date="1570386356000" expanded="true" signature="556:640" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/helpers/SubClasses.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1577284468502" expanded="false" signature="6:88" ph="..." />
+            <marker date="1577284468502" expanded="true" signature="123:268" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="296:375" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="402:484" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="507:627" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="648:707" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="732:767" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="804:1887" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="861:958" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1015:1111" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1199:1285" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1354:1440" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1507:1654" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1738:1885" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="1932:1992" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="2012:2421" ph="{...}" />
+            <marker date="1577284468502" expanded="true" signature="2103:2419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/HideInfoMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/Focus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1577285037307" expanded="false" signature="6:52" ph="..." />
+            <marker date="1577285037307" expanded="true" signature="88:1676" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="273:508" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="313:417" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="590:1132" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="696:1096" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="754:994" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="842:919" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1178:1352" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1218:1316" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1409:1505" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1438:1499" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1574:1674" ph="{...}" />
+            <marker date="1577285037307" expanded="true" signature="1603:1668" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/SeedsSelection.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/HideActionsMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/Reset.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/SeedPlant.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/MenuToggle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/ShowInfoMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/TileAction.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/ShowActionsMenu.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/scriptsToSort/Interactive/actions/farmActions/TileHarvest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/ActionsManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <marker date="1577548896557" expanded="false" signature="6:141" ph="..." />
+            <marker date="1577548896557" expanded="true" signature="199:2890" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="316:919" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="396:913" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="521:903" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="689:889" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="967:999" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1172:1302" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1391:2888" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1443:1483" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1513:1569" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1715:1812" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="1825:1959" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="2049:2882" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="2131:2273" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="2294:2476" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="2585:2729" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="2936:3278" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="3199:3276" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="3302:3349" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="3373:3708" ph="{...}" />
+            <marker date="1577548896557" expanded="true" signature="3733:4542" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/Tile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1577561158348" expanded="true" signature="7:33" ph="..." />
+            <marker date="1577561158348" expanded="true" signature="68:4020" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="99:166" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="198:305" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="471:743" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="515:738" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1021:1135" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1161:2219" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1213:1246" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1259:2213" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1322:1522" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1420:1508" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1539:1850" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1606:1836" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1717:1818" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1886:2200" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="1957:2042" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2063:2116" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2250:2604" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2302:2515" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2347:2431" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2448:2505" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2528:2561" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2627:2831" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="2888:3159" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="3190:3509" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="3538:3799" ph="{...}" />
+            <marker date="1577561158348" expanded="true" signature="3828:4008" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <marker date="1577042067611" expanded="false" signature="7:55" ph="..." />
+            <marker date="1577042067611" expanded="true" signature="94:402" ph="{...}" />
+            <marker date="1577042067611" expanded="true" signature="192:245" ph="{...}" />
+            <marker date="1577042067611" expanded="true" signature="279:320" ph="{...}" />
+            <marker date="1577042067611" expanded="true" signature="348:400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/RaycasterFocus.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2464">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+          <folding>
+            <marker date="1577560214500" expanded="false" signature="6:66" ph="..." />
+            <marker date="1577560214500" expanded="true" signature="104:6705" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="701:848" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="875:906" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="933:1800" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1066:1357" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1134:1319" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1370:1794" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1392:1431" ph="/* if (missed == false) ... */" />
+            <marker date="1577560214500" expanded="true" signature="1496:1728" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1817:4911" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1871:2999" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="1917:2438" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="2021:2214" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="2235:2424" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="2697:2823" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="2840:2989" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3012:4905" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3051:4895" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3105:4648" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3238:4365" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3285:3457" ph="/* if (io.activationTriggers.Has(ActivationTriggers.GazeTimer)) ... */" />
+            <marker date="1577560214500" expanded="true" signature="3523:3623" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="3859:4040" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4094:4214" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4390:4630" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4461:4569" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4669:4881" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4732:4828" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4934:5747" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="4973:5741" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="5141:5296" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="5313:5465" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="5534:5718" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="5589:5673" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="5805:6370" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="6024:6165" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="6290:6364" ph="/* ..SendTrigger(ActivationTriggers.GazeTimer); ... */" />
+            <marker date="1577560214500" expanded="true" signature="6477:6703" ph="{...}" />
+            <marker date="1577560214500" expanded="true" signature="6511:6637" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/SeedsSelectionMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <marker date="1577546329473" expanded="false" signature="7:89" ph="..." />
+            <marker date="1577546329473" expanded="true" signature="138:868" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="219:270" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="303:344" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="372:506" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="541:584" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="620:664" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="717:866" ph="{...}" />
+            <marker date="1577546329473" expanded="true" signature="798:860" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/interactive/InteractiveObject.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="209" selection-start-line="209" selection-end-line="209" />
+          <folding>
+            <marker date="1577307020338" expanded="false" signature="6:69" ph="..." />
+            <marker date="1577307020338" expanded="true" signature="117:10133" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="124:875" ph="Properties" />
+            <marker date="1577307020338" expanded="true" signature="909:1180" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1207:1417" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1451:1818" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1474:1782" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1579:1730" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1621:1716" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1868:2144" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="1892:1980" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2053:2138" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2380:3711" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2711:3501" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2760:3491" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2854:3210" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="2930:3192" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3072:3170" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3307:3477" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3373:3459" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3717:5789" ph="Actions" />
+            <marker date="1577307020338" expanded="true" signature="3775:3958" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3893:3952" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="3994:4146" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4051:4100" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4198:4318" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4249:4312" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4349:4501" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4404:4462" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4531:4680" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4617:4674" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4738:4865" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4791:4859" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4911:5769" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="4917:4975" ph="/* event triggers ... */" />
+            <marker date="1577307020338" expanded="true" signature="5027:5763" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="5112:5575" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="5140:5561" ph="/* if (lastFocused.Contains(this)) ... */" />
+            <marker date="1577307020338" expanded="true" signature="5671:5753" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="5795:8551" ph="States" />
+            <marker date="1577307020338" expanded="true" signature="5928:8480" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6044:6326" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6126:6298" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6357:6641" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6438:6613" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6713:8390" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6783:7550" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="6882:7025" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="7130:7276" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="7378:7518" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="7585:8362" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="7684:7828" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="7933:8081" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="8183:8330" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="8579:10131" ph="Focus" />
+            <marker date="1577307020338" expanded="true" signature="8657:8977" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="8781:8971" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9010:9101" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9131:9349" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9187:9277" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9290:9343" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9380:9601" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9437:9494" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9507:9595" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9648:9896" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9701:9890" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9821:9880" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="9945:10116" ph="{...}" />
+            <marker date="1577307020338" expanded="true" signature="10026:10110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/actions/farmActions/MenuToggle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <marker date="1577286557375" expanded="true" signature="40:1417" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="149:1415" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="259:1409" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="353:745" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="527:621" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="642:731" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="808:1072" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="852:945" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="966:1058" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="1133:1399" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="1177:1271" ph="{...}" />
+            <marker date="1577286557375" expanded="true" signature="1292:1385" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_LunaticX/Scripts/farm/TileMenu.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <marker date="1577566810802" expanded="false" signature="7:55" ph="..." />
+            <marker date="1577566810802" expanded="true" signature="100:2863" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="473:543" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="570:677" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="718:1420" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="769:1414" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="1455:1582" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="1506:1576" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="1620:2352" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="1673:2346" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="2390:2667" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="2462:2661" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="2748:2785" ph="{...}" />
+            <marker date="1577566810802" expanded="true" signature="2824:2861" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

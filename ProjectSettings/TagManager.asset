@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - interactive
+  - touch
+  - focus
+  - IOTrigger
+  - LineDraw
+  - VRGazeInteractable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - TopSea
+  - touch
+  - interactive
+  - hovered
+  - hoveredLast
+  - hovered_grab
+  - hovered_grab_activate
+  - IOTrigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: ui
+    uniqueID: 1010259083
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
