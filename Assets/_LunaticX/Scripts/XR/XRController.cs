@@ -78,6 +78,12 @@ public class XRController : XRDeviceControls
         if (!isTriggerPressed&&_pressed){Focus.SendEvent(ItemEvents.onTriggerPressed);OnTriggerPressed?.Invoke(this);}
         isTriggerPressed = _pressed;
     }
+
+    public void Update()
+    {
+        OnTriggerEvent(Input.GetMouseButton(0));
+    }
+    
     
     public bool IfButtonPressed(HandButtons _btn)
     {

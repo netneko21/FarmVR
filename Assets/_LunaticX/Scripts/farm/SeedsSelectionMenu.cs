@@ -1,45 +1,45 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using ActionsIO;
+using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SeedsSelectionMenu : MonoBehaviour
 {
     public Animator animator;
-    public bool isActive;
-    public void Show()
+    public List<TileActionsButton> seedBtns;
+
+    public void Awake()
     {
+        seedBtns = GetComponentsInChildren<TileActionsButton>().ToList();
+    }
+
+    public void Show(Transform _plantBtn)
+    {
+        foreach (TileActionsButton btn in seedBtns)
+        {
+            var action = btn.GetComponent<TileAction>();
+            Debug.Log(action.vegetable + " veg ");
+            VegetableData veg = VegetableManager.instance.Get(action.vegetable);
+
+            btn.gameObject.SetActive(veg.unlocked);
+            Debug.Log(btn.gameObject.name + " unlocked "+ veg.unlocked);
+        }
+        
+        transform.position = _plantBtn.position - _plantBtn.up * 0.4f;
+        transform.rotation = _plantBtn.rotation;
         animator.SetBool("show",true);
     }
 
-    public void ActionsKillMe()
-    {
-        Destroy(gameObject);
-    }
-    
     public void Hide()
     {
-        DisableColliders();
-        //TileMenu.instance.currentActionTile = null;
         animator.SetBool("show",false);
-    }
-
-    public void EnableColliders()
-    {
-        ToggleColliders(true);
-    }
-
-    public void DisableColliders()
-    {
-        ToggleColliders(false);
-    }
-    
-    public void ToggleColliders(bool _isActive)
-    {
-        foreach (Collider collider in GetComponentsInChildren<Collider>())
+        foreach (TileActionsButton btn in seedBtns)
         {
-            collider.enabled = _isActive;
+            btn.gameObject.SetActive(false);
         }
     }
+    
 }

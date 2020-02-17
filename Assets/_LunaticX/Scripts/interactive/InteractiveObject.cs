@@ -22,6 +22,8 @@ public class InteractiveObject : MonoBehaviour
     private Vector3 basePos,baseLocalPos,baseScale;
     private Vector3 baseRot,baseLocalRot;
     public Transform baseParent;
+    public bool isActive { get; set; }
+
     #endregion
     
     private void SaveStats()
@@ -151,23 +153,18 @@ public class InteractiveObject : MonoBehaviour
         }
     }
     
-    public void Disable()
+    public void Disable() { isActive = false; }
+    
+    public void Enable() { isActive = true; }
+    
+    public void DisableColliders()
     {
-        foreach (Collider collider in colliders)
-        {
-            collider.enabled = false;
-        }
-
-        //this.enabled = false;
+        foreach (Collider collider in colliders) { collider.enabled = false; }
     }
     
-    public void Enable()
+    public void EnableColliders()
     {
-        //this.enabled = true;
-        foreach (Collider collider in colliders)
-        {
-            collider.enabled = true;
-        }
+         foreach (Collider collider in colliders) { collider.enabled = true; }
     }
 
     public void FireTrigger(ActivationTriggers _trigger)

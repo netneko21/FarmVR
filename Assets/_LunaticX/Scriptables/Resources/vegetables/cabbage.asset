@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d016a5aed3322f3429e77d5e2f7e2cc8, type: 3}
+  m_Name: cabbage
+  m_EditorClassIdentifier: 
+  type: 3
+  early: {fileID: 100000, guid: 22060f3d67f76de47972326b7a125453, type: 3}
+  mid: {fileID: 100000, guid: b3883730055123f47b515dcb4b5ca6c2, type: 3}
+  late: {fileID: 100000, guid: 3f66019c1dcbc574c8a3379ae734b601, type: 3}
+  objectCurrent: {fileID: 0}
+  name: Cabbage
+  iconSprite: {fileID: 21300000, guid: 106f7eb83cbc3fb45a7853cfc58122e3, type: 3}
+  growthTime: 100
+  dryTime: 100
+  dryDieTime: 300
+  overGrowTime: 300
+  unlocked: 1
+  bushOffset: []
+  bushStartScale:
+  - {x: 0.01, y: 0.01, z: 0.01}
+  - {x: 0.5, y: 0.5, z: 0.5}
+  - {x: 0.6, y: 0.7, z: 0.6}

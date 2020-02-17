@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_titart93/Scene/SceneFarmMain.unity
-    guid: 8a7a6f96ed0812d45a20f0c9b55f51bd
+    path: Assets/_LunaticX/scenes/main.unity
+    guid: eec2e5d0d5c661140bfdc85f329db948
   m_configObjects: {}

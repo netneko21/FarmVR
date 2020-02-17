@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d016a5aed3322f3429e77d5e2f7e2cc8, type: 3}
+  m_Name: carrot
+  m_EditorClassIdentifier: 
+  type: 4
+  early: {fileID: 100000, guid: 83b8da0c589aaea4d9ae759f2ef62e78, type: 3}
+  mid: {fileID: 100000, guid: 7862df04d7dc8fb4abfa69f487a55e31, type: 3}
+  late: {fileID: 100000, guid: d689c4624de1b144d953ae7c6658ee13, type: 3}
+  objectCurrent: {fileID: 0}
+  name: Carrot
+  iconSprite: {fileID: 21300000, guid: fe5ad8aeac558d6459e3266322077ebf, type: 3}
+  growthTime: 100
+  dryTime: 100
+  dryDieTime: 300
+  overGrowTime: 300
+  unlocked: 1
+  bushOffset:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0.15, z: 0}
+  - {x: 0, y: 0.3, z: 0}
+  bushStartScale:
+  - {x: 0.01, y: 0.01, z: 0.01}
+  - {x: 0.7, y: 0.7, z: 0.7}
+  - {x: 0.5, y: 0.5, z: 0.5}

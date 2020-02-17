@@ -34,6 +34,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1404D976: 0.5
+    - Vector1_3F8ABDBB: 1
     - _Cutoff: 0.5
     - _Shininess: 0.078125
     m_Colors:

@@ -70,8 +70,6 @@ public class RaycasterFocus : Focus
         {
             if (currentHitCollider)
             {
-                //
-
                 if (currentHitCollider.GetComponent<ChildCollider>())
                 {
                     currentHitCollider.GetComponent<ChildCollider>()
@@ -87,8 +85,6 @@ public class RaycasterFocus : Focus
             currentHitCollider = hit.collider;
             gazeTarget = null;
             
-                //            Debug.Log("collider hit "+ currentHitCollider.transform.parent.name);
-
             if (currentHitCollider.GetComponent<ChildCollider>())
             {
                 currentHitCollider.GetComponent<ChildCollider>().OnTriggerEnter(raycastCollider);
@@ -107,19 +103,12 @@ public class RaycasterFocus : Focus
                     io = currentHitCollider.GetComponentInParent<InteractiveObject>();
                     if (io)
                     {
-                        //   if (io.activationTriggers.Has(ActivationTriggers.GazeTimer))
-                       // {
-                            // Check if we have already gazed over the object.
-                            if (gazeTarget == currentHitCollider)
+                        if (gazeTarget == currentHitCollider)
                             {
                                 return;
                             }
-
-                            // Set the last hit if last targer is empty
-                    
-
-                            // Check if current hit is same with last one;
-                            if (currentHitCollider != gazeTarget)
+                        
+                        if (currentHitCollider != gazeTarget)
                             {
                                 circle.fillAmount = 0f;
                                 gazeTarget = currentHitCollider;
@@ -131,7 +120,7 @@ public class RaycasterFocus : Focus
                             }
 
                             gazeControl = StartCoroutine(FillCircle(currentHitCollider.transform));
-                       // }
+                       
                     }
                     else
                     {
@@ -160,7 +149,6 @@ public class RaycasterFocus : Focus
     {
         if (currentHitCollider) 
         {
-         //   Debug.Log(" currentHitCollider " + currentHitCollider.transform.parent.name);
             if (currentHitCollider.GetComponent<ChildCollider>())
             {
                 currentHitCollider.GetComponent<ChildCollider>().OnTriggerExit(raycastCollider);//force event same as on touch
@@ -198,23 +186,14 @@ public class RaycasterFocus : Focus
             circle.fillAmount = timer / loadingTime;
             yield return null;
         }
-
-        //circle.fillAmount = 1f;
+        
         circle.fillAmount = 0f;
         SendEvent(ItemEvents.onTriggerReleased);
-        //    ..SendTrigger(ActivationTriggers.GazeTimer);
-       // ResetGazer();
     }
 
-    // Reset the loading circle to initial, and clear last detected target.
     private void ResetGazer()
     {
-        if (circle == null)
-        {
-            Debug.LogError("Please assign target loading image, (ie. circle image)");
-            return;
-        }
-
+        if (circle == null) { return; }
         circle.fillAmount = 0f;
         gazeTarget = null;
     }

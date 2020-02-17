@@ -9,18 +9,14 @@ public class TileActionsButton : MonoBehaviour
     public Image bg, icon;
     public void ActivateButton(bool _isActive)
     {
+        gameObject.SetActive(_isActive);
         if (_isActive)
         {
-            bg.color = Color.white;
-            icon.color = Color.white;
-            GetComponent<InteractiveObject>().Enable();
+            //GetComponent<InteractiveObject>().Enable();
         }
         else
         {
-
-            bg.color = Color.gray;
-            icon.color = Color.gray;
-            GetComponent<InteractiveObject>().Disable();
+            //GetComponent<InteractiveObject>().Disable();
         }
     }
 

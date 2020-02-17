@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d016a5aed3322f3429e77d5e2f7e2cc8, type: 3}
+  m_Name: pepper
+  m_EditorClassIdentifier: 
+  type: 1
+  early: {fileID: 100000, guid: 7710938d6d8f1cf45b06bfdfb313301c, type: 3}
+  mid: {fileID: 100000, guid: 9b903df57ee09024d96d32ffd5460efc, type: 3}
+  late: {fileID: 100000, guid: 441ade5dab12ef344af9b2dcb1aa5bf2, type: 3}
+  objectCurrent: {fileID: 0}
+  name: Pepper
+  iconSprite: {fileID: 21300000, guid: 0239f0c8fc940f64680ffa5384e9bd62, type: 3}
+  growthTime: 100
+  dryTime: 100
+  dryDieTime: 300
+  overGrowTime: 300
+  unlocked: 1
+  bushOffset: []
+  bushStartScale:
+  - {x: 0.01, y: 0.01, z: 0.01}
+  - {x: 0.5, y: 0.8, z: 0.5}
+  - {x: 0.8, y: 0.8, z: 0.8}

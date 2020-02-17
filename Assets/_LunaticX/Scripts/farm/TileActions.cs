@@ -9,15 +9,32 @@ public class TileActions : MonoBehaviour
     public Animator animator;
     public Tile tile;
     public TileActionsButton closeBtn,digBtn,waterBtn,plantBtn,harvestBtn,clearBtn;
+
+    public bool CheckQActions(Tile _tile,TileMenu.ActionType _action)
+    {
+        foreach (TileActionQ action in TileActionsQueue.instance.actions)
+        {
+            if (action.tile == _tile)
+            {
+                if (action.type == _action)
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+    
+
     public void UpdateForTile(Tile _tile)
     {
         tile = _tile;
-        closeBtn.ActivateButton(true);
-        digBtn.ActivateButton(tile.groundState == Tile.GroundStates.wild && tile.vegetable == null);
-        waterBtn.ActivateButton(tile.groundState == Tile.GroundStates.dry);
-        plantBtn.ActivateButton(tile.vegetable == null && tile.groundState == Tile.GroundStates.watered);
-        harvestBtn.ActivateButton(tile.vegetable != null && tile.readyForHarvest);
-        clearBtn.ActivateButton(tile.vegetable != null && tile.groundState == Tile.GroundStates.wild);
+        digBtn.gameObject.SetActive(tile.vegetable == null && tile.groundState == Tile.GroundStates.wild&&!CheckQActions(tile,TileMenu.ActionType.Dig));
+        waterBtn.gameObject.SetActive(tile.groundState != Tile.GroundStates.wild&&!CheckQActions(tile,TileMenu.ActionType.Water));
+        plantBtn.gameObject.SetActive(tile.vegetable == null && tile.groundState != Tile.GroundStates.wild&&!CheckQActions(tile,TileMenu.ActionType.Plant));
+        harvestBtn.gameObject.SetActive(tile.vegetable != null && tile.readyForHarvest&&!CheckQActions(tile,TileMenu.ActionType.Harvest));
+        clearBtn.gameObject.SetActive(tile.vegetable != null&&!CheckQActions(tile,TileMenu.ActionType.Clear));
     }
 
     public void ActionsKillMe()
@@ -27,26 +44,12 @@ public class TileActions : MonoBehaviour
     
     public void Hide()
     {
-        DisableColliders();
+        foreach (InteractiveObject io in GetComponentsInChildren<InteractiveObject>())
+        {
+           io.DisableColliders();
+        }
+        
         TileMenu.instance.currentActionTile = null;
         animator.SetBool("show",false);
-    }
-
-    public void EnableColliders()
-    {
-        ToggleColliders(true);
-    }
-
-    public void DisableColliders()
-    {
-        ToggleColliders(false);
-    }
-    
-    public void ToggleColliders(bool _isActive)
-    {
-        foreach (Collider collider in GetComponentsInChildren<Collider>())
-        {
-            collider.enabled = _isActive;
-        }
     }
 }

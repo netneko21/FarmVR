@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2887248390364346955}
   - component: {fileID: 2887248390364346956}
   - component: {fileID: 8737684906214128036}
-  - component: {fileID: 8909184565737436747}
+  - component: {fileID: 4680831078479449365}
   m_Layer: 0
   m_Name: ActionsButton
   m_TagString: Untagged
@@ -83,24 +83,13 @@ MonoBehaviour:
     mode: 0
     requireFocus: 0
     target: {fileID: 0}
-    id: 0
+    actionComponent: {fileID: 0}
   currentColliders: []
-  grabOffset: {x: 0, y: 0, z: 0}
-  grabScale: {x: 0, y: 0, z: 0}
-  grabAngles: {x: 0, y: 0, z: 0}
-  canGrab: 0
-  snapToHand: 0
-  canDraw: 0
-  basePos: {x: 0, y: 0, z: 0}
-  baseLocalPos: {x: 0, y: 0, z: 0}
-  baseScale: {x: 0, y: 0, z: 0}
-  baseRot: {x: 0, y: 0, z: 0}
-  baseLocalRot: {x: 0, y: 0, z: 0}
   baseParent: {fileID: 0}
   pivotOffset: {x: 0, y: 0, z: 0}
   renderers: []
   colliders: []
---- !u!114 &8909184565737436747
+--- !u!114 &4680831078479449365
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

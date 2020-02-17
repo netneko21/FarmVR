@@ -12,7 +12,7 @@ using UnityEngine;
 using System;
 using System.Text.RegularExpressions;
 using System.Collections;
-using CurioAssets;
+//!!!using CurioAssets;
 
 namespace VRKeys {
 
@@ -50,14 +50,14 @@ namespace VRKeys {
 			keyboard.HideValidationMessage ();
 		}
 
-		public EasyPlayFabIntegration playFab;
+	//!!!	public EasyPlayFabIntegration playFab;
 		/// <summary>
 		/// Validate the email and simulate a form submission. Connect this to OnSubmit.
 		/// </summary>
 		public void HandleSubmit (string text) 
 		{
 				//StartCoroutine (SubmitEmail (text));
-			playFab.ValidateNewAccountCreation();
+				//!!!		playFab.ValidateNewAccountCreation();
 			keyboard.Disable ();
 
 		}

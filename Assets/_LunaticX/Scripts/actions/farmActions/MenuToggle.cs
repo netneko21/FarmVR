@@ -49,6 +49,20 @@ namespace ActionsIO
                     TileMenu.instance.TryHideSeedMenu();
                 }
             }
+            
+            if(menu == TileMenu.MenuType.Selection)
+            {
+                Tile tile = GetComponent<Tile>();
+                if(tile==null){Debug.LogError("tile null on selection");return;}
+                if (activate)
+                { 
+                    TileMenu.instance.TrySelectTile(tile);
+                }
+                else
+                {
+                    TileMenu.instance.TryDeSelectTile(tile);
+                }
+            }
         }
     }
 }

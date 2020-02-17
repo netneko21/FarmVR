@@ -5,7 +5,7 @@ namespace ActionsIO
     [ComponentIdentifierAttribute(action = ItemActions.TileAction)]
     public class TileAction : ActionIO
     {
-        public TileMenu.ActionType action; public VegetableData vegetable;
+        public TileMenu.ActionType action; public VegType vegetable;
 
         public override void Run()
         {
@@ -14,23 +14,23 @@ namespace ActionsIO
             switch (action)
             {
                 case TileMenu.ActionType.Clear:
-                    TileManager.instance.currentTile.Clear();
+                    TileMenu.instance.currentSelectedTile.ClearAdd();
                     break;
                 
                 case TileMenu.ActionType.Dig:
-                    TileManager.instance.currentTile.Dig();
+                    TileMenu.instance.currentSelectedTile.DigAdd();
                     break;
                 
                 case TileMenu.ActionType.Harvest:
-                    TileManager.instance.currentTile.Harvest();
+                    TileMenu.instance.currentSelectedTile.HarvestAdd();
                     break;
                 
                 case TileMenu.ActionType.Plant:
-                    TileManager.instance.currentTile.PlantSeed(vegetable);
+                    TileMenu.instance.currentSelectedTile.PlantSeedAdd(vegetable);
                     break;
                 
                 case TileMenu.ActionType.Water:
-                    TileManager.instance.currentTile.Water();
+                    TileMenu.instance.currentSelectedTile.WaterAdd();
                     break;
             }
         }
